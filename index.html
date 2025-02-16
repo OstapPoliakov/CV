@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="CV, cv, resume, резюме, Поляков Остап">
+    <meta name="description" content="Этот сайт - резюме на позицию Frontend-разработчик">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Резюме</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="about">
+                <img src="img/me.jpg" alt="фото Полякова Остапа" class="face">
+                <div class="about-text">
+                    <h1>Поляков Остап Александрович</h1>
+                    <p>
+                        Выпускник Санкт-Петербургского Политехнического университета Петра Великого, обладатель степени магистра по направлению "Приборостроение (информационные технологии
+                        безопасности сложных систем)".
+                    </p>
+                    <h3>Ссылки на мои социальные сети:</h3>
+                    <a href="https://vk.com/polyakov_ostap" target="_blank">ВКонтакте</a> | 
+                    <a href="https://github.com/OstapPoliakov" target="_blank">Github</a> |
+                    <a href="https://t.me/cortezos" target="_blank">Telegram</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="card experience">
+                <h2>Опыт работы</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Организация</th>
+                            <th>Должность</th>
+                            <th>Период</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ООО "В Контакте"</td>
+                            <td>Специалист по мониторингу запрещ. контента</td>
+                            <td>2019 - по наст. вр.</td>
+                        </tr>
+                        <tr>
+                            <td>ООО "Профессиональные контакты"</td>
+                            <td>Старший модератор контента</td>
+                            <td>2016 - 2019</td>
+                        </tr>
+                        <tr>
+                            <td>ООО "В Контакте"</td>
+                            <td>Модератор контента</td>
+                            <td>2015 - 2016</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="card education">
+                <h2>Образование</h2>
+                <table class="edu-table">
+                    <tr>
+                        <td>Учебное заведение:</td>
+                        <td>Санкт-Петербургский политехнический университет Петра Великого, (2018 - 2020)</td>
+                    </tr>
+                    <tr>
+                        <td>Факультет:</td>
+                        <td>Институт компьютерных наук и технологий</td>
+                    </tr>
+                    <tr>
+                        <td>Специальность:</td>
+                        <td>Приборостроение (информационные технологии безопасности сложных систем)</td>
+                    </tr>
+                    <tr>
+                        <td>Учебное заведение:</td>
+                        <td>Санкт-Петербургский политехнический университет Петра Великого, (2015 - 2018)</td>
+                    </tr>
+                    <tr>
+                        <td>Факультет:</td>
+                        <td>Институт компьютерных наук и технологий</td>
+                    </tr>
+                    <tr>
+                        <td>Специальность:</td>
+                        <td>Приборостроение (информационно-измерительная техника и технологии)</td>
+                    </tr>
+                    <tr>
+                        <td>Учебное заведение:</td>
+                        <td>Санкт-Петербургский технический колледж управления и коммерции, (2011 - 2015)</td>
+                    </tr>
+                    <tr>
+                        <td>Специальность:</td>
+                        <td>Программирование в компьютерных системах</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="card edu-plus">
+                <h2>Дополнительное образование</h2>
+                <table class="edu-table">
+                    <tr>
+                        <td>Название курса:</td>
+                        <td>Основы JavaScript разработки</td>
+                    </tr>
+                    <tr>
+                        <td>Учебное заведение:</td>
+                        <td>EPAM</td>
+                    </tr>
+                    <tr>
+                        <td>Профессиональные навыки и умения:</td>
+                        <td>Разработка frontend-приложений с использованием HTML5, CSS3, JavaScript, React</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="card hobbies">
+                <h2>Мои хобби</h2>
+                <ul class="list">
+                    <li>Программирование</li>
+                    <li>Музыка</li>
+                    <li>Фитнес</li>
+                    <li>Путешествия</li>
+                </ul>
+            </div>
+        </main>
+        <footer class="card connect">
+            <h2>Связаться со мной</h2>
+            <form class="form-connect">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="text" id="email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" cols="20" rows="5" placeholder="Текст сообщения"></textarea>
+                </div>
+                <input type="submit" value="Отправить" class="btn">
+            </form>
+        </footer>
+    </div>
+</body>
+</html>
